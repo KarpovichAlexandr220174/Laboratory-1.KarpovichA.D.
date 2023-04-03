@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Karpovich A.D. SE-2218 220174
 public class findMinimum {
     //a recursive function for finding Minimum in array...
     public static int findMininum1TASK(int[] arr, int n) {
