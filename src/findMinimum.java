@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tasks_LAB1 {
+public class findMinimum {
     //a recursive function for finding Minimum in array...
     public static int findMininum(int[] arr, int n) {
         if (n == 1) {
