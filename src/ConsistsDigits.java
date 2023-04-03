@@ -6,11 +6,11 @@ public class ConsistsDigits {
     public static Boolean StringChecking(String s) {
         //main conditions
         if (s.isEmpty()) {
-            return true;
+            return true; //if the string is empty
         }
         char element = s.charAt(0); //the first element checking
         if (!Character.isDigit(element)) {
-            return false; //if the element is not a digit, with a symbol '!' in condition code, that means "not"
+            return false; //if the first element is not a digit, with a symbol '!' in condition code, that means "not"
         }
         return StringChecking(s.substring(1)); //a recursive algorithm with
         //"substring" for cutting the string and checking for digits
