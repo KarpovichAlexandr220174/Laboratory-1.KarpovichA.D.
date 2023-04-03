@@ -3,7 +3,7 @@ import java.util.Scanner;
 //Karpovich A.D. SE-2218 220174
 public class Factorial {
     //a recursive function for finding factorial...
-    private static int factorial4TASK(int n) {
+    public static int factorial4TASK(int n) {
         //important condition
         if (n == 1) {
             return 1;
