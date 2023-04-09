@@ -51,7 +51,8 @@ public static void main(String[] args) {
         int n = sc.nextInt(); 
         System.out.println(getIsPrime3TASK(n, (int) Math.sqrt(n))); 
     }
-There must be n, and (int) Math.sqrt(n) as input parameters in "psvm".   
+!!!There must be n, and (int) Math.sqrt(n) as input parameters in "psvm".!!! 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 TASK 4 module src
 Description: Return "n!" of the given number.
