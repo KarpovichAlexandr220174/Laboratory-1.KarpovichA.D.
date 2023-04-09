@@ -12,7 +12,7 @@ Solution:
         } else {
             return Math.min(findMininum1TASK(arr, n - 1), arr[n - 1]); 
         }
-    }```
+    }
 
 TASK 2 module src
 Description: Return the average of an array.
