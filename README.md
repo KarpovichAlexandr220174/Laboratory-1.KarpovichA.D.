@@ -1,6 +1,8 @@
 # Laboratory-1.KarpovichA.D.
 Laboratory-1 tasks.
+
 TASK 1 module src
+
 Description: Return the minimum value of an array.
 
 Explanation: This function recursively finds the minimum value in a given array of integers. It first checks the base case, which is when the size of the array is 1, and simply returns the first element of the array. Otherwise, it recursively calls itself with the size of the array reduced by 1, and takes the minimum value between the result of the recursive call and the last element of the array. This continues until the base case is reached, at which point the minimum value is returned.
