@@ -13,8 +13,7 @@ public static int findMininum1TASK(int[] arr, int n) {
             return Math.min(findMininum1TASK(arr, n - 1), arr[n - 1]); 
         }
     }
-    
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 TASK 2 module src
 Description: Return the average of an array.
 
@@ -28,8 +27,7 @@ public static int findAverage2TASK(int[] arr, int n) {
             return (arr[n - 1] + (n - 1) * findAverage2TASK(arr, n - 1)) / n; 
         }
     }
-    
------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+     
 TASK 3 module src
 Description: Determine is given number prime or not.
 
@@ -53,7 +51,6 @@ public static void main(String[] args) {
     }
 !!!There must be n, and (int) Math.sqrt(n) as input parameters in "psvm".!!! 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 TASK 4 module src
 Description: Return "n!" of the given number.
 
@@ -66,8 +63,7 @@ public static int getfactorial4TASK(int n) {
         }
         return n * getfactorial4TASK(n - 1); 
     }
-  
------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+    
 TASK 5 module src
 Description: Return the "n-th" element in Fibonacci sequence.
 
@@ -84,7 +80,6 @@ public static int getFibonacci5TASK(int n) {
         }
     }
     
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 TASK 6 module src
 Description: Return "a^n".
 
@@ -97,8 +92,7 @@ public static int getDegree_IN6TASK(int a, int n) {
         }
         return a * getDegree_IN6TASK(a, n - 1); 
     }
-    
------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+     
 TASK 7 module src
 Description: Return given array in reverse order.
 
@@ -113,7 +107,6 @@ public static String reverseArray7TASK(int[] arr, int n) {
         }
     }
     
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 TASK 8 module src
 Description: Check the string for "all digits".
 
@@ -131,7 +124,7 @@ public static Boolean checkString8TASK(String s) {
         return checkString8TASK(s.substring(1)); 
     }
     
------------------------------------------------------------------------------------------------------------------------------------------------------------------------ TASK 9 module src
+TASK 9 module src
 Description: Return the value of Binomial Coefficient of given "n" and "k".
 
 Explanation: This function calculates the binomial coefficient C(n,k) using a recursive algorithm. The base cases of the recursion are when k equals 0 or n, and in those cases, the function returns 1. Otherwise, the function recursively calculates C(n,k) by summing the binomial coefficients of C(n-1,k-1) and C(n-1,k), which are obtained by recursively calling the same function with the arguments n-1 and k-1 or k, respectively.
@@ -144,7 +137,7 @@ public static int findBinomial9TASK(int n, int k) {
         return findBinomial9TASK(n - 1, k - 1) + findBinomial9TASK(n - 1, k);
     }
     
------------------------------------------------------------------------------------------------------------------------------------------------------------------------ TASK 10 module src
+TASK 10 module src
 Description: Return the GCD value of given "a" and "b".
 
 Explanation: This function calculates the greatest common divisor (GCD) of two given integers "a" and "b" using the Euclidean algorithm with a recursive algorithm. The base case of the recursion is when b equals 0, and in that case, the function returns a. Otherwise, the function calculates the GCD of a and b by recursively calling the same function with the arguments b and a modulo b. The function repeats this step until the base case is reached, and the GCD is found.
@@ -158,8 +151,7 @@ public static int getGCD10TASK(int a, int b) {
         }
     }
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
     
 
-    
