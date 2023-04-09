@@ -1,5 +1,12 @@
 import java.util.Scanner;
+
 //Karpovich A.D. SE-2218 220174
+/*
+    @ findMininum1TASK - definition of min
+    @ n - length of array
+    @ arr - array
+    @ return - returning the minimum of array
+*/
 public class findMinimum {
     //a recursive function for finding Minimum in array...
     public static int findMininum1TASK(int[] arr, int n) {
