@@ -1,6 +1,12 @@
 import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
+/*
+    @ getGCD10TASK - definition of GCD
+    @ a - number
+    @ b - number
+    @ return - returning a value of GCD
+*/
 public class GCD_TASK {
     //a recursive function for finding GCD of two numbers...
     public static int getGCD10TASK(int a, int b) {
