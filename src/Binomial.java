@@ -1,6 +1,12 @@
 import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
+/*
+    @ findBinomial9TAS - definition of Binomial Coefficient
+    @ n - number
+    @ k - number
+    @ return - returning a value of B.C. of n and k
+*/
 public class Binomial {
     //a recursive function for finding Binomial Coeff...
     public static int findBinomial9TASK(int n, int k) {
