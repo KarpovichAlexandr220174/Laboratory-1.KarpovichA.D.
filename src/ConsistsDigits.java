@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
+/*
+    @ checkString8TASK - definition of checking a string for "all digits"
+    @ s - string for checking
+    @ return - returning true or false about "all digits"
+*/
 public class ConsistsDigits {
     //a recursive function for checking for "all digits"...
     public static Boolean checkString8TASK(String s) {
