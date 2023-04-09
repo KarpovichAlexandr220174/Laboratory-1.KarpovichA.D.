@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
+/*
+    @ getFibonacci5TASK - definition of Fibonacci
+    @ n - number
+    @ return - returning a value of Fibonacci
+*/
 public class Fibonacci {
     //a recursive function for finding Fibonacci
     public static int getFibonacci5TASK(int n) {
