@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
 /*
-    @ findBinomial9TAS - definition of Binomial Coefficient
+    @ findBinomial9TASK - definition of Binomial Coefficient
     @ n - number
     @ k - number
     @ return - returning a value of B.C. of n and k
