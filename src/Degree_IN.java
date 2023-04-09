@@ -1,6 +1,12 @@
 import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
+/*
+    @ getDegree_IN6TASK - definition of number in degree
+    @ a - number
+    @ n - degree
+    @ return - returning a value of "a^n"
+*/
 public class Degree_IN {
     //a recursive function for finding (a^n)...
     public static int getDegree_IN6TASK(int a, int n) {
