@@ -1,6 +1,12 @@
 import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
+/*
+    @ getIsPrime3TASK - definition of prime
+    @ n - number
+    @ helper - assistant for determine "isprime" or not
+    @ return - returning "isprime" or not
+*/
 public class isPrime {
     //a recursive function for finding average of array...
     public static Boolean getIsPrime3TASK(int n, int helper) {
