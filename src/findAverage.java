@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
 /*
-    @  findAverage2TASK - definition of average
+    @ findAverage2TASK - definition of average
     @ n - length of array
     @ arr - array
     @ return - returning the average of array
