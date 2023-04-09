@@ -1,6 +1,12 @@
 import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
+/*
+    @ reverseArray7TASK - definition of reversing an array
+    @ arr - array
+    @ n - length of array
+    @ return - returning the reversed array
+*/
 public class Reverse {
     //a recursive function for reversing an array...
     public static String reverseArray7TASK(int[] arr, int n) {
