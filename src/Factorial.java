@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 //Karpovich A.D. SE-2218 220174
+/*
+    @ getfactorial4TASK - definition of factorial
+    @ n - number
+    @ return - returning a value of "n!"
+*/
 public class Factorial {
     //a recursive function for finding factorial...
     public static int getfactorial4TASK(int n) {
